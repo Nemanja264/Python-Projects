@@ -1,0 +1,122 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f1b2a, #152f4f); /*#484867;*/
+    color: #f1f1f1;
+    font-family: "Nunito", sans-serif;
+}
+
+h1
+{
+    color: #3abff8;
+    border: 2px dotted;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.search-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.searchBar
+{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #4848677b;
+}
+
+.sort-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+select
+{
+    background-color: rgba(223, 225, 236, 0.872);
+    border-radius: 10px;
+    padding: 2px;
+    color: #f1f1f1;
+}
+
+.sort-categories
+{
+    width: 50%;
+}
+
+.sort-order
+{
+    width: 30%;
+}
+
+input::placeholder
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.coin-container
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 5px;
+    padding: 5px;
+    width: 100%; 
+}
+
+.coin-container div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.watcher-input-container input, button
+{
+    border-radius: 8px;
+    padding: 0.2em 0.4em; 
+    font-size: 0.9rem;
+    font: inherit;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+.price-input
+{
+    width: 60%;
+    border: 2px solid #ccc;
+    outline: none;
+    margin-right: 10px;
+}
+
+button
+{
+    width: fit-content;
+    color: rgb(18, 15, 15);
+    white-space: nowrap;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #1565c0;;
+}
